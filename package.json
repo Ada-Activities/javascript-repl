@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js",
-    "test": "export NODE_OPTIONS='--no-webstorage' && jest",
+    "test": "export NODE_OPTIONS='--no-webstorage --experimental-vm-modules' && jest",
     "lint": "node node_modules/eslint/bin/eslint.js ."
   },
   "keywords": [],

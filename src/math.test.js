@@ -1,4 +1,4 @@
-const { sum } = require('./math');
+import { sum } from './math';
 
 describe('math', () => {
   test('performs a sample test summing numbers', () => {
